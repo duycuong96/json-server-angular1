@@ -4,6 +4,7 @@
   "description": "fake rest api",
   "main": "index.js",
   "scripts": {
+    "start" : "node server.js",
     "json:server": "json-server --watch db.json",
     "json:server:remote":"json-server http://jsonplaceholder.typicode.com/db"
   },
